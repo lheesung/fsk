@@ -8,7 +8,7 @@ function ColorSchemesExample() {
       <Navbar bg="primary" variant="dark">
         <Container>
           <Navbar.Brand href="#home">FSK</Navbar.Brand>
-          <Nav>
+          <Nav >
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#qr">QR</Nav.Link>
             <Nav.Link href="#signin">로그인</Nav.Link>
