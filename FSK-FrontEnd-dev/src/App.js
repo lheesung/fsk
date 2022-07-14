@@ -14,17 +14,18 @@ import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 function App() {
   return (
     <>
-    <div>
-      <Header></Header>
-      <Slider></Slider>
-    </div>
-    <div style={{display: 'flex'}}>
-      <Elementary></Elementary>
-      <Middle></Middle>
-      <High></High>
-      {/* <Login></Login> */}     
-      {/* <Join></Join> */}
-    </div>
+      <div>
+        <Header></Header>
+        <Slider></Slider>
+      </div>
+      <div style={{ display: 'flex', marginTop: 50, alignItems: "center", justifyContent: "center"  }}>
+        <Elementary></Elementary>
+        <Middle></Middle>
+        <High></High>
+
+        {/* <Login></Login> */}
+        {/* <Join></Join> */}
+      </div>
     </>
   );
 }
